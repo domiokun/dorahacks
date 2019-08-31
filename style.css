@@ -1,0 +1,358 @@
+body{
+    margin: 0;
+    padding: 0;
+	border: 0;
+	font-family: "微软雅黑";
+}
+
+.back{
+	background: #161616;
+}
+
+.inner{
+	padding: 40px 20px;
+	max-width: 1200px;
+	margin:auto;
+	overflow: hidden;
+	color:#FFF;
+	 
+}
+
+#logo{
+	padding:10px 30px;
+	width:120px;
+}
+
+#banner{
+	display: block;
+	margin: auto;
+	padding:50px;
+	width: 70%;
+}
+
+#doralogo{
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+
+h1{
+	font-size: 18px;
+	text-align: center;
+}
+
+.tile{
+	display: block;
+	margin: auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	padding:50px 30px;
+	width:90%;
+}
+
+.box{
+	box-sizing:border-box;
+	max-width:50%;
+	padding:5px;
+}
+
+	/* 极客马拉松  */
+	
+.pho1{
+	 width: 100%; 
+	 position: relative;
+	 overflow: hidden;
+	 cursor: pointer;
+	  }
+	  
+#competition{
+	width: 100%;
+	transition: 0.4s;
+}
+
+#competition:hover{
+	transform:scale(1.2) rotate(5deg);
+}
+
+h2{
+	font-size: 30px;
+    position:absolute;
+    left:18px;
+    bottom:-5px;
+}
+
+.button1{
+	width:100px;
+	height:100px;
+	position:relative;
+	
+	padding:20px;
+	background-clip:margin-box;
+	background:#19E0D5;
+	cursor: pointer;
+}
+
+#signup{
+	width:80%;
+	display: block;
+	margin: 3px auto;
+	
+}
+h3{
+	text-align: center;
+}
+
+.intro{
+	position:relative;
+	top:5px;
+	left:0;	
+	display:flex;
+	
+}
+.text1{
+	text-align:center;
+	font-size:14px;
+	flex-grow: 1;
+	padding: 20px 0 0 0;
+}
+
+/* 极客大会 */
+.pho2{
+	 width: 100%; 
+	 position: relative;
+	 overflow: hidden;
+	 cursor: pointer;
+	  }
+	  
+#meet{
+	width: 100%;
+	transition: 0.4s;
+}
+
+#meet:hover{
+	transform:scale(1.2) rotate(-5deg);
+}
+
+h4{
+	font-size: 30px;
+    position:absolute;
+    left:18px;
+    top:-25px;
+}
+
+.intro2{
+	position:relative;
+	top:0;
+	left:0;	
+	display:flex;
+	width: 100%;
+	flex-direction: row-reverse;
+	padding:10px 0;
+}
+
+.button2{
+	width:100px;
+	height:100px;
+	position:relative;
+	padding:20px;
+	background-clip:margin-box;
+	background:#19E0D5;
+	cursor: pointer;
+} 
+
+.button2:hover{
+	background:#FFA310;
+}
+.button1:hover{
+	background:#FFA310;
+}
+
+#buy{
+	width:80%;
+	display: block;
+	margin: 3px auto;	
+}
+
+h3{
+	text-align: center;
+	font-size: 16px;
+}
+
+
+.text2{
+	text-align:center;
+	font-size:14px;
+	flex-grow: 1;
+	padding: 20px 0 0 0;
+}
+
+.bottom{
+	background: #282828;
+	position:relative;
+	padding:60px 60px;
+}
+
+#dorasmalllogo{
+	position: absolute;
+	right:80px;
+	bottom:55px;
+	width:100px;
+}
+
+h5{
+	position: absolute;
+	left:80px;
+    top:20px;	
+	color:#fff;
+	font-size:14px;
+	
+}
+
+h6{
+	color:#19E0D5;
+	font-size:18px;
+	left:80px;
+	top:18px;
+	position: absolute;
+}
+
+ @media screen and (max-width:960px){
+	 
+	     .inner{
+	 	padding: 60px 0px;
+	 	}
+		  .box{
+			  max-width:90%;
+		  }
+		  #logo{
+			  width:96px;
+			  padding:0px 20px;
+		  }
+		  #banner{
+		  	display: block;
+		  	margin: auto;
+		  	padding:50px 10px;
+		  	width: 80%;
+		  }
+		  #doralogo{
+		      display: block;
+		      margin: auto;
+		      width: 35%;
+		  }
+		  
+		  h1{
+		  	font-size: 16px;
+		  	text-align: center;
+		  }
+		  
+		  .tile{
+		  	padding:0 10px;
+		  	width:300px;
+		  }
+		  
+		  h2{
+		  	  font-size: 20px;
+		      position:absolute;
+		      left:18px;
+		      bottom:0px;
+		  }
+		  
+		  h4{
+		  	font-size: 20px;
+		      position:absolute;
+		      left:18px;
+		      top:-15px;
+		  }
+		  
+		  .button2{
+		  	width:70px;
+		  	height:70px;
+		  	padding:10px;
+		  } 
+		  
+		  #buy{
+		  	width:70%;
+		  	display: block;
+		  	margin:auto;
+			padding:6px 0 0 0;
+		  }
+		  
+		  .button1{
+		  	width:70px;
+		  	height:70px;
+		  	padding:10px;
+		  }
+		  
+		  #signup{
+		  	width:70%;
+		  	display: block;
+		  	margin:auto;
+			padding:6px 0 0 0;
+		  	
+		  }
+		  
+		  h3{
+			  font-size: 14px;
+			  position: absolute;
+			  left:18px;
+			  top:45px;
+			  
+		  }
+		  p{
+			  font-size: 12px;
+		  }
+		  
+		  .text1{
+		  	text-align:center;
+		  	font-size:12px;
+		  	flex-grow: 1;
+		  	padding: 0 0 0 0;
+		  }
+		  
+		  .text2{
+		  	text-align:center;
+		  	font-size:12px;
+		  	flex-grow: 1;
+		  	padding: 0 0 0 0 ;
+		  }
+		  
+		  #arrow{
+			  width: 3%;
+		  }
+		  
+		  .bottom{
+		  	padding:30px 0px;
+		  }
+		  
+		  h5{
+		  	left:30px;
+		    top:6px;	
+		  	font-size:6px;
+		  	
+		  }
+		  
+		  h6{
+		  	font-size:9px;
+		  	left:30px;
+		  	top:3px;
+		  }
+		  
+		  #dorasmalllogo{
+		  	position: absolute;
+		  	right:30px;
+		  	bottom:35px;
+		  	width:50px;
+		  }
+		  
+		  
+	  }
+
+
+
+
+
+
+
+
+
